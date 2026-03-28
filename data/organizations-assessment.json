@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "title": "AI Governance Organizations Assessment for Catastrophic & Existential Risk",
+    "lastUpdated": "2026-03-28",
+    "totalOrganizations": 40,
+    "methodology": "Organizations assessed based on: (1) whether their work directly addresses catastrophic/existential AI risk governance, (2) quality and influence of their output, (3) active status. HIGH VALUE = substantive x-risk governance work with real policy influence. MEDIUM VALUE = adjacent/useful but not core x-risk focus. LOW VALUE = not doing useful x-risk governance work, defunct, or primarily focused on current harms only.",
+    "sources": [
+      "https://www.aisafety.com/map",
+      "https://www.mind-xo.com/ai-safety-organizations-atlas",
+      "Web searches across EA Forum, organizational websites, and news sources"
+    ]
+  },
+  "organizations": [
+    {
+      "name": "Centre for the Governance of AI (GovAI)",
+      "url": "https://www.governance.ai/",
+      "description": "Independent nonprofit (spun out of FHI in 2021) producing rigorous research on AI governance challenges. Directed by Ben Garfinkel. Focus areas include compute governance, international governance, corporate governance, and AI forecasting. Alumni pipeline to US/EU policy roles, DeepMind, OpenAI.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "The single most important dedicated AI governance research organization. Directly focused on catastrophic risk, excellent research quality, strong talent pipeline into policy and labs. Defines the field's research agenda."
+    },
+    {
+      "name": "MIRI Technical Governance Team (MIRI TGT)",
+      "url": "https://techgov.intelligence.org/",
+      "description": "MIRI's governance arm founded in 2024, focused on technical governance questions bearing on extinction risk. Published a research agenda on 'AI Governance to Avoid Extinction' covering verification, international agreements, compute caps, and Off Switch infrastructure for coordinated halts to frontier AI development.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Explicitly extinction-focused governance research. Unique niche in technical governance questions (verification, hardware-enabled mechanisms). Small but produces high-signal work on the hardest governance problems. The 'Off Switch' framing is distinctive and influential."
+    },
+    {
+      "name": "Center for Security and Emerging Technology (CSET)",
+      "url": "https://cset.georgetown.edu/",
+      "description": "Georgetown University policy research center producing evidence-driven analysis on security implications of AI. Major work on export controls, AI talent flows, compute supply chains, and AI legislation tracking. Maintains the Emerging Technology Observatory data platform.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Premier US national security AI policy shop. Enormous influence on actual US policy (export controls, CHIPS Act implementation). While not always explicitly x-risk framed, their work on compute governance and AI security directly addresses catastrophic risk vectors. Extremely high-quality empirical work."
+    },
+    {
+      "name": "Institute for AI Policy and Strategy (IAPS)",
+      "url": "https://www.iaps.ai/",
+      "description": "Nonpartisan DC-based think tank (fiscally sponsored by Rethink Priorities) producing policy research on AI implications from current models to potential AGI/superintelligence. Focus on compute governance, international coordination, US-China dynamics, and agent governance. Runs an AI policy fellowship.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Explicitly addresses risks up to and including superintelligence. Strong compute governance work (continuation of Rethink Priorities' former AI governance team). DC location gives policy access. Fellowship builds the talent pipeline. One of the best-positioned orgs bridging x-risk concerns and practical US policy."
+    },
+    {
+      "name": "Centre for Long-Term Resilience (CLTR)",
+      "url": "https://www.longtermresilience.org/",
+      "description": "UK-based independent think tank working to transform global resilience to extreme risks. Core focus on AI risk, biological risk, and government risk management. Provides direct input to UK government AI policy, including Ministry of Defence AI Strategy. Advocates for frontier AI risk governance frameworks.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Directly focused on catastrophic/existential risk governance with genuine UK government access. Instrumental in shaping UK approach to frontier AI safety. Practical, solutions-oriented policy work rather than just research. One of the most effective organizations at translating x-risk concerns into actionable government policy."
+    },
+    {
+      "name": "Future of Life Institute (FLI)",
+      "url": "https://futureoflife.org/",
+      "description": "Nonprofit working to reduce large-scale risks from transformative technologies. Known for the 2023 Pause Letter, the AI Safety Index (biannual scoring of frontier AI companies), autonomous weapons advocacy, and EU AI Act engagement. Funds AI safety research globally.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Major x-risk governance actor with real policy influence (EU AI Act lobbying, autonomous weapons conventions). The AI Safety Index creates accountability pressure on frontier labs. Grantmaking amplifies the field. Sometimes criticized for communication approach but undeniably high-impact on the governance landscape."
+    },
+    {
+      "name": "Convergence Analysis",
+      "url": "https://www.convergenceanalysis.org/",
+      "description": "Nonprofit research organization building foundational reports on AI scenarios and governance. Edited the Oxford Handbook of AI Governance (2025, 49 chapters). Consulted on EU AI Act GPAI Code of Practice and BIS reporting requirements. Advocates for national frontier AI model registries.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Directly focused on catastrophic risk governance with real policy influence (EU GPAI Code, BIS rules). The Oxford Handbook is a field-defining contribution. Model registry work is practically important. Small org punching well above its weight."
+    },
+    {
+      "name": "METR (Model Evaluation and Threat Research)",
+      "url": "https://metr.org/",
+      "description": "Berkeley-based nonprofit evaluating frontier AI models for dangerous autonomous capabilities. Conducts pre-deployment evaluations for major AI labs (OpenAI, Anthropic, Google DeepMind). Published influential work on frontier AI safety policies and common elements across company commitments.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Evaluation infrastructure is critical governance infrastructure. METR's work directly enables responsible scaling policies and government oversight. While technically evaluation-focused rather than governance-focused per se, their work is the empirical foundation that governance frameworks depend on. Indispensable."
+    },
+    {
+      "name": "Apollo Research",
+      "url": "https://www.apolloresearch.ai/",
+      "description": "AI safety research organization focused on detecting scheming and deceptive alignment in frontier AI systems. Partners with OpenAI and UK AISI on model evaluations. Collaborated on 'evaluations-based safety cases for AI scheming' with METR, Redwood Research, and UC Berkeley. Active governance engagement.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Like METR, Apollo's evaluation work is governance-critical. Their focus on scheming/deception is directly relevant to the most dangerous failure modes. Active governance engagement (safety cases framework) translates technical findings into governance-relevant artifacts. Small but extremely high-value."
+    },
+    {
+      "name": "Simon Institute for Longterm Governance (SI)",
+      "url": "https://simoninstitute.ch/",
+      "description": "Geneva-based think tank fostering international cooperation on governing transformative technologies. Current focus on frontier AI diplomacy: facilitating exchange between technical and diplomatic communities, educating diplomats, advising on the UN Independent International Scientific Panel on AI and the Global Dialogue on AI Governance.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Unique and critical niche: bridging the AI safety community and the international diplomatic community in Geneva. No one else is doing this at their quality level. Their work on the UN AI governance architecture (Scientific Panel, Global Dialogue) directly shapes the international governance landscape. Longterm governance framing keeps x-risk central."
+    },
+    {
+      "name": "Center for AI Safety (CAIS)",
+      "url": "https://safe.ai/",
+      "description": "San Francisco-based nonprofit conducting safety research, field-building, and advocacy. Published the landmark 2023 Statement on AI Risk (signed by hundreds of AI researchers). Maintains the AI Risk taxonomy. Primarily technical safety but with significant governance-relevant communication and field-building.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Primarily a technical safety organization, not a governance one. However, the Statement on AI Risk was enormously governance-relevant (shifted the Overton window), and their risk communication work informs governance debates. Not producing governance research per se, but a key enabler of the governance ecosystem."
+    },
+    {
+      "name": "Future of Humanity Institute (FHI)",
+      "url": "https://www.futureofhumanityinstitute.org/",
+      "description": "Multidisciplinary research institute at Oxford founded by Nick Bostrom. Pioneered the study of existential risk and AI governance. Closed in April 2024 after Oxford's Faculty of Philosophy imposed hiring/fundraising freezes starting 2020. GovAI spun out in 2021; many researchers dispersed to other organizations.",
+      "assessment": "HIGH VALUE (DEFUNCT)",
+      "reasoning": "Historically the single most important organization for AI x-risk governance thinking. GovAI, which spun out of FHI, carries forward most of its governance legacy. Marking as defunct but HIGH VALUE for historical significance and because understanding its intellectual lineage matters for the field."
+    },
+    {
+      "name": "RAND Corporation",
+      "url": "https://www.rand.org/topics/artificial-intelligence.html",
+      "description": "Global policy think tank producing research on AI governance, security, and catastrophic risk. Work spans frontier AI security, biological weapons uplift risk, AI governance frameworks for state/local government, and historical analogues for technology governance.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Credible and influential institution but AI x-risk governance is a small fraction of their work. Their catastrophic risk work (biosecurity uplift, frontier AI security) is genuinely valuable but they are not a dedicated x-risk organization. Useful for legitimizing x-risk concerns in mainstream policy circles."
+    },
+    {
+      "name": "Brookings Institution AI Initiative",
+      "url": "https://www.brookings.edu/projects/artificial-intelligence-and-emerging-technology-initiative/",
+      "description": "Policy research initiative at Brookings advancing governance of transformative technologies through research and convening. Covers AI governance frameworks, global policy architecture, and economic impacts of AI.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Mainstream credibility is high but x-risk focus is low. Mostly focused on near-term governance challenges (regulation, economic disruption). Useful for normalizing AI governance in establishment policy circles but not producing frontier x-risk governance thinking."
+    },
+    {
+      "name": "Epoch AI",
+      "url": "https://epoch.ai/",
+      "description": "Research institute investigating key trends shaping AI trajectory and governance. Collects and analyzes data on compute, training runs, algorithmic progress, and hardware. Produces widely-cited forecasts and trend analyses used by governance researchers and policymakers.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Not a governance organization per se, but their empirical work is indispensable infrastructure for governance. You cannot do compute governance without Epoch's data. Their forecasting work directly informs timelines-dependent governance strategies. Marking HIGH because their unique contribution is irreplaceable."
+    },
+    {
+      "name": "Partnership on AI (PAI)",
+      "url": "https://partnershiponai.org/",
+      "description": "Multi-stakeholder organization developing responsible AI practices across industry, civil society, and academia. Focus on foundation model deployment, synthetic media provenance, shared prosperity, and global standards.",
+      "assessment": "LOW VALUE",
+      "reasoning": "Industry-dominated multi-stakeholder body. Focuses on current AI ethics and responsible deployment rather than catastrophic/existential risk. Has not meaningfully engaged with x-risk governance questions. Produces consensus-oriented work that avoids hard questions about frontier risk. Not where x-risk governance work happens."
+    },
+    {
+      "name": "OECD AI Policy Observatory",
+      "url": "https://oecd.ai/",
+      "description": "OECD platform providing data, analysis, and policy guidance on AI governance globally. Maintains a live database of AI strategies/policies across countries, the OECD AI Principles, incident monitoring, and trustworthy AI metrics. Hosts expert groups on AI risk and accountability.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Important infrastructure for international AI governance coordination but not x-risk focused. The OECD Principles and policy tracking are useful foundations. Moves slowly as an intergovernmental body. Relevant because international governance architecture matters, but the OECD itself is not producing x-risk-specific governance thinking."
+    },
+    {
+      "name": "AI Now Institute",
+      "url": "https://ainowinstitute.org/",
+      "description": "NYU-affiliated independent policy research institute studying concentration of power in the tech industry. Focuses on corporate accountability, labor impacts, surveillance, and structural reform of the AI industry.",
+      "assessment": "LOW VALUE",
+      "reasoning": "Explicitly focused on current harms, power concentration, and political economy of AI -- not catastrophic or existential risk. Ideologically opposed to the x-risk framing (views it as distraction from present harms). Their power concentration analysis has some x-risk relevance but they would reject the framing. Not useful for x-risk governance specifically."
+    },
+    {
+      "name": "Ada Lovelace Institute",
+      "url": "https://www.adalovelaceinstitute.org/",
+      "description": "UK-based research institute (funded by Nuffield Foundation) examining how data and AI affect people and society. 2025-28 strategy focuses on ensuring AI works for people. Produces policy-focused research on UK AI regulation, public attitudes, foundation models, and procurement.",
+      "assessment": "LOW VALUE",
+      "reasoning": "Good organization but focused on societal impacts, public participation, and responsible AI rather than catastrophic/existential risk. Similar to AI Now in orientation, though less ideological. Their foundation model governance work has some relevance but they are not engaging with x-risk questions."
+    },
+    {
+      "name": "Rethink Priorities (AI Strategy)",
+      "url": "https://rethinkpriorities.org/",
+      "description": "EA-aligned research organization. Previously had an AI Governance & Strategy team that spun out to become IAPS. Now developing a new AI Strategy initiative focused on identifying gaps in the AI safety/governance landscape and helping funders and governments reduce global catastrophic risk from transformative AI.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "The core AI governance team became IAPS (which is HIGH VALUE). RP's remaining AI strategy work is nascent and less clearly defined. Worth watching but currently less impactful than IAPS for governance specifically. Their broader research capacity (surveys, cost-effectiveness analysis) is useful supporting infrastructure."
+    },
+    {
+      "name": "Center for a New American Security (CNAS)",
+      "url": "https://www.cnas.org/",
+      "description": "Bipartisan DC national security think tank with significant AI policy work. Produces research on AI and national security, compute governance, R&D priorities, and US-China AI competition. Staff includes former Rethink Priorities compute governance researchers (e.g., Onni Aarne).",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Serious national security think tank with growing AI focus. Their framing is national security rather than x-risk, but there is significant overlap (AI-enabled WMD, compute controls, strategic stability). Influential in DC policy circles. Not core x-risk but the national security lens captures some of the same concerns. Hiring from the x-risk community is a good sign."
+    },
+    {
+      "name": "SIPRI (Stockholm International Peace Research Institute)",
+      "url": "https://www.sipri.org/research/armament-and-disarmament/emerging-military-and-security-technologies/artificial-intelligence",
+      "description": "International research institute dedicated to conflict, armaments, and disarmament. Has a dedicated Governance of AI Programme focused on military AI, autonomous weapons systems, AI-nuclear nexus governance, and IHL compliance. Published SIPRI Yearbook 2025 chapter on AI and international peace and security.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Excellent work on military AI governance, autonomous weapons, and the AI-nuclear nexus -- genuinely catastrophic risk relevant. However, focused specifically on military/weapons applications rather than the broader AI x-risk governance landscape. Important complement to the core x-risk organizations on the military dimension."
+    },
+    {
+      "name": "Carnegie Endowment for International Peace",
+      "url": "https://carnegieendowment.org/topics/artificial-intelligence",
+      "description": "Global think tank with an AI governance research program spanning technology competition, digital governance, and international AI cooperation. Work on US-China technology competition, democratic AI governance, and global governance architecture.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Respectable international affairs think tank with some AI governance work. Useful for international governance perspectives and great-power dynamics. Not x-risk focused per se but their international coordination work is relevant. Not producing frontier x-risk governance thinking."
+    },
+    {
+      "name": "Oxford Martin School - AI Governance Initiative",
+      "url": "https://www.oxfordmartin.ox.ac.uk/ai-governance",
+      "description": "Oxford University initiative understanding and anticipating lasting risks from AI through technical research combined with deep policy analysis. Focuses on both computational elements of AI development and governance implications.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Academic research initiative with good researchers but less direct policy impact than GovAI (the other Oxford AI governance entity). Partially overlaps with GovAI's mission. Worth tracking but not a primary driver of x-risk governance work."
+    },
+    {
+      "name": "Stanford HAI (Human-Centered AI Institute)",
+      "url": "https://hai.stanford.edu/",
+      "description": "Stanford interdisciplinary institute advancing AI research, education, policy, and practice to improve human condition. Produces the annual AI Index Report. Policy work spans AI regulation, national AI strategy, and technology competition.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Enormous institutional prestige and the AI Index is a valuable resource. However, 'human-centered AI' framing is deliberately not x-risk focused. Policy work tends toward mainstream technology policy rather than catastrophic risk. Useful for data and establishment credibility but not doing x-risk governance specifically."
+    },
+    {
+      "name": "CIFAR (Canadian Institute for Advanced Research)",
+      "url": "https://cifar.ca/ai/",
+      "description": "Canadian research institute that helped launch the Pan-Canadian AI Strategy and has programs connecting AI researchers with policymakers. Historically important for catalyzing Canada's AI ecosystem. Knowledge mobilization programs bridge research and policy.",
+      "assessment": "LOW VALUE",
+      "reasoning": "Primarily a research funding and convening organization. AI governance is not their core focus -- they are more about advancing AI research capacity. Their policy engagement is broad rather than x-risk specific. Historical importance for Canadian AI ecosystem but not a governance organization."
+    },
+    {
+      "name": "UN High-Level Advisory Body on AI (HLAB-AI)",
+      "url": "https://www.un.org/en/ai-advisory-body",
+      "description": "39-member advisory body established by the UN Secretary-General in 2023, spanning 33 countries. Released 'Governing AI for Humanity' final report (Sept 2024) with seven recommendations for global AI cooperation. Led to adoption of the Independent International Scientific Panel on AI and Global Dialogue on AI Governance.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Important for establishing international governance architecture and norms. The Scientific Panel and Global Dialogue could become significant institutions. However, UN processes are slow, consensus-driven, and tend to water down x-risk language. Matters for legitimacy and global coordination but not where cutting-edge x-risk governance thinking happens."
+    },
+    {
+      "name": "UK AI Security Institute (AISI)",
+      "url": "https://www.aisi.gov.uk/",
+      "description": "UK government body (formerly AI Safety Institute, renamed Feb 2025 to AI Security Institute). Evaluates frontier AI systems, develops testing methodologies, and conducts safety research. Part of the Department for Science, Innovation and Technology. Rebranding toward national security framing.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "Government evaluation infrastructure for frontier AI systems is critical governance capacity. Even with the name change to 'Security', the actual work (frontier model evaluation, safety research) remains highly x-risk relevant. Being inside government gives it unique power to shape mandatory requirements. The name change is concerning but the capability matters enormously."
+    },
+    {
+      "name": "US AI Safety Institute (USAISI / NIST)",
+      "url": "https://www.nist.gov/artificial-intelligence/ai-safety-institute",
+      "description": "US government AI safety body housed within NIST. Develops AI safety standards, risk management frameworks (AI RMF), and evaluation methods. Works with frontier AI companies on voluntary pre-deployment testing commitments.",
+      "assessment": "HIGH VALUE",
+      "reasoning": "The US government's primary technical capacity for AI safety evaluation and standards. The AI RMF is becoming a de facto global standard. Even if politically constrained, the institutional capacity matters enormously. Voluntary commitments from frontier labs flow through here."
+    },
+    {
+      "name": "Center for AI Policy (CAIP)",
+      "url": "https://www.centeraipolicy.org/",
+      "description": "Non-partisan nonprofit advocacy group that worked with US Congress from June 2023 to promote legislation addressing catastrophic risks from advanced AI. Published model legislation and a 2025 Action Plan (whistleblower protection, cybersecurity, frontier model planning). Ran out of funding and ceased most active operations in May 2025.",
+      "assessment": "HIGH VALUE (DEFUNCT)",
+      "reasoning": "Was one of the very few organizations doing direct congressional advocacy specifically on AI x-risk. Their legislative model and direct Hill engagement was unique and valuable. Tragic that they ran out of funding -- this was a critical gap in the ecosystem. Their work product remains useful reference material."
+    },
+    {
+      "name": "Redwood Research",
+      "url": "https://www.redwoodresearch.org/",
+      "description": "AI safety research lab primarily focused on technical alignment. Governance-relevant work includes: pioneering 'AI control' research agenda (protocols for monitoring potentially misaligned AI agents), advising Google DeepMind and Anthropic on risk assessment, and partnering with UK AISI on control safety cases.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Primarily a technical safety lab, not a governance organization. However, their 'AI control' framework is becoming governance-relevant (safety cases, deployment protocols). Their collaboration with government (UK AISI) bridges technical and governance work. Not primarily governance but producing governance-relevant technical artifacts."
+    },
+    {
+      "name": "Existential Risk Observatory",
+      "url": "https://existentialriskobservatory.org/",
+      "description": "Organization focused on raising public awareness of existential risks from AI through media engagement, policy research, and policy proposals. Writes media articles on AI x-risk and publishes governance recommendations.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Explicitly x-risk focused but primarily a communications/advocacy organization rather than a research one. Useful for shifting public discourse and media narratives. Less influential than the research-producing organizations but fills a real gap in public communication about x-risk."
+    },
+    {
+      "name": "Encode",
+      "url": "https://encode.org/",
+      "description": "Global youth-led organization advocating for ethical regulation of AI. Mobilizes young people to address AI governance challenges including algorithmic bias and accountability.",
+      "assessment": "LOW VALUE",
+      "reasoning": "Youth mobilization on AI ethics is not x-risk governance work. Focus on algorithmic bias and accountability is current-harms oriented. Not producing substantive governance research or policy analysis relevant to catastrophic risk."
+    },
+    {
+      "name": "The Future Society",
+      "url": "https://thefuturesociety.org/",
+      "description": "Nonprofit incubated at Harvard Kennedy School working on AI governance. Surveyed 44 civil society organizations on AI governance priorities. Engages in international AI governance processes and produces policy analysis.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Does some useful convening and survey work but not a primary producer of x-risk governance research. Their international engagement is useful. Not as focused or influential as the core x-risk governance organizations."
+    },
+    {
+      "name": "AI Policy Institute (AIPI)",
+      "url": "https://theaipi.org/",
+      "description": "US nonprofit focused on ensuring AI development accounts for public interest. Produces polling on public attitudes toward AI, advocates for AI regulation, and engages in policy debates on frontier AI risks.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Does useful public opinion research and advocacy on AI risks including catastrophic scenarios. More advocacy-oriented than research-oriented. Their polling data is genuinely useful for governance advocates. Not producing deep governance research but fills a communications/advocacy niche."
+    },
+    {
+      "name": "Center for AI and Digital Policy (CAIDP)",
+      "url": "https://www.caidp.org/",
+      "description": "Organization promoting AI governance aligned with democratic values. Produces the annual AI and Democratic Values Index scoring countries on AI governance. Files regulatory comments and engages in international AI governance processes.",
+      "assessment": "LOW VALUE",
+      "reasoning": "Focused on democratic values, human rights, and accountability in AI governance -- not catastrophic/existential risk. Their democratic governance framing is legitimate but orthogonal to x-risk concerns. The country scoring is useful background but not x-risk governance work."
+    },
+    {
+      "name": "Bulletin of the Atomic Scientists",
+      "url": "https://thebulletin.org/",
+      "description": "Historic organization focused on existential threats (nuclear, climate, disruptive technologies). Increasingly covering AI catastrophic risk, including the Doomsday Clock assessment. Published analysis on 'Stopping the Clock on catastrophic AI risk' (2025).",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Legitimate existential risk institution with growing AI focus. The Doomsday Clock is a powerful communications tool. Their nuclear expertise is relevant to AI-nuclear nexus governance. Not a dedicated AI governance org but their credibility and catastrophic risk framing is valuable."
+    },
+    {
+      "name": "ITU (International Telecommunication Union) - AI Governance",
+      "url": "https://www.itu.int/",
+      "description": "UN specialized agency that published 'The Annual AI Governance Report 2025: Steering the Future of AI'. Hosts AI for Good summits and develops telecommunications standards relevant to AI infrastructure.",
+      "assessment": "LOW VALUE",
+      "reasoning": "Intergovernmental standards body not focused on x-risk. Their AI governance work is telecommunications-infrastructure and digital-inclusion oriented. The Annual AI Governance Report is broad and consensus-driven. Not producing x-risk relevant governance work."
+    },
+    {
+      "name": "MIT AI Risk Repository",
+      "url": "https://airisk.mit.edu/",
+      "description": "MIT-hosted database linking identified AI risks to source information, supporting evidence, and causal/domain taxonomies. Provides structured data infrastructure for understanding AI risk landscape.",
+      "assessment": "MEDIUM VALUE",
+      "reasoning": "Useful data infrastructure for the field but a repository/database rather than an organization producing governance research. Covers all AI risks, not x-risk specific. Good academic resource that governance researchers can draw on."
+    },
+    {
+      "name": "Cloud Security Alliance (CSA) - AI Safety Initiative",
+      "url": "https://cloudsecurityalliance.org/ai-safety-initiative",
+      "description": "Industry association initiative on AI security, safety, and risk management. Produces guidance on organizational AI governance, compliance, and security frameworks.",
+      "assessment": "LOW VALUE",
+      "reasoning": "Enterprise-focused AI security and compliance guidance. Not addressing catastrophic or existential risk -- this is corporate risk management and cybersecurity. The word 'safety' here means something very different than in the x-risk context."
+    }
+  ],
+  "summary": {
+    "high_value_active": [
+      "GovAI",
+      "MIRI TGT",
+      "CSET",
+      "IAPS",
+      "CLTR",
+      "FLI",
+      "Convergence Analysis",
+      "METR",
+      "Apollo Research",
+      "Simon Institute",
+      "Epoch AI",
+      "UK AISI",
+      "US AISI/NIST"
+    ],
+    "high_value_defunct": [
+      "FHI",
+      "CAIP"
+    ],
+    "medium_value": [
+      "CAIS",
+      "RAND",
+      "Brookings",
+      "Rethink Priorities",
+      "CNAS",
+      "SIPRI",
+      "Carnegie Endowment",
+      "Oxford Martin School",
+      "Stanford HAI",
+      "UN HLAB-AI",
+      "Redwood Research",
+      "Existential Risk Observatory",
+      "The Future Society",
+      "AI Policy Institute",
+      "Bulletin of the Atomic Scientists",
+      "MIT AI Risk Repository"
+    ],
+    "low_value": [
+      "Partnership on AI",
+      "AI Now Institute",
+      "Ada Lovelace Institute",
+      "CIFAR",
+      "Encode",
+      "CAIDP",
+      "ITU",
+      "CSA AI Safety Initiative"
+    ],
+    "notable_gaps": "The field is undersupplied in: (1) direct legislative advocacy in the US (CAIP's closure left a hole), (2) AI governance work focused on the Global South, (3) organizations bridging technical evaluations and binding regulatory requirements, (4) dedicated x-risk governance capacity in the EU (most work is UK/US concentrated)."
+  }
+}

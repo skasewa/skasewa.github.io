@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shallow Review of AI Governance for X-Risk, 2025</title>
+  <meta name="description" content="A comprehensive catalog of AI governance research focused on catastrophic and existential risks from AI. 70+ papers across 20+ research agendas and 10 categories.">
+  <meta property="og:title" content="Shallow Review of AI Governance for X-Risk">
+  <meta property="og:description" content="A structured catalog of research agendas, papers, and organizations working on AI governance aimed at preventing catastrophic and existential outcomes from advanced AI.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Shallow Review of AI Governance for X-Risk">
+  <meta name="twitter:description" content="70+ papers, 20+ research agendas, 10 categories of AI governance research for catastrophic and existential risk.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Fallback for file:// protocol where fetch() fails -->
+  <script src="data/papers.js" defer></script>
+</head>
+<body>
+
+  <!-- Skip Nav -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">shallow<span>review</span>.gov</div>
+      <nav aria-label="Main navigation">
+        <a href="#overview" data-page="overview" class="active">Overview</a>
+        <a href="#agendas" data-page="agendas">Research Agendas</a>
+        <a href="#methodology" data-page="methodology">Methodology</a>
+        <a href="#about" data-page="about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- === Overview Page === -->
+  <div id="page-overview" class="page active">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1>Shallow Review of AI Governance<br>for <span class="highlight">Catastrophic &amp; Existential Risk</span></h1>
+        <p class="subtitle">
+          A structured catalog of research agendas, papers, and organizations working on AI governance
+          specifically aimed at preventing catastrophic and existential outcomes from advanced AI systems.
+        </p>
+        <div class="hero-stats" id="hero-stats"></div>
+      </div>
+    </section>
+
+    <!-- Disclaimer -->
+    <div class="container">
+      <div class="disclaimer" role="alert">
+        <strong>Draft / v0.3:</strong> This is an early-stage catalog, modeled after the
+        <a href="https://shallowreview.ai" target="_blank" rel="noopener">Shallow Review of Technical AI Safety</a>.
+        It is deliberately shallow — brief descriptions rather than deep analysis. Coverage is incomplete and
+        likely reflects the biases of its sources. Corrections and additions are welcome.
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="container">
+      <div class="controls">
+        <div class="search-box">
+          <label for="search-input" class="sr-only">Search papers, authors, organizations, and topics</label>
+          <input type="text" id="search-input" placeholder="Search papers, authors, organizations, topics..." autocomplete="off">
+        </div>
+        <div class="sort-controls">
+          <label for="main-sort-select" class="sr-only">Sort results</label>
+          <select id="main-sort-select" class="sort-select">
+            <option value="relevance">Default order</option>
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+          </select>
+        </div>
+        <button class="filter-btn active" data-category="all">All</button>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="page-layout">
+        <main class="categories" id="main-content">
+          <div id="categories-container"></div>
+          <noscript>
+            <div class="empty-state" style="padding:48px;text-align:center;">
+              This site requires JavaScript. View raw data at <a href="data/papers.json">data/papers.json</a>.
+            </div>
+          </noscript>
+        </main>
+        <aside class="sidebar" aria-label="Category navigation">
+          <div class="sidebar-title">Categories</div>
+          <ul class="sidebar-links" id="sidebar-links"></ul>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <!-- === Research Agendas Index Page (rendered by JS) === -->
+  <div id="page-agendas" class="page">
+    <div class="container">
+      <div class="agendas-index" id="agendas-index"></div>
+    </div>
+  </div>
+
+  <!-- === Single Agenda Page (rendered dynamically) === -->
+  <div id="page-agenda" class="page"></div>
+
+  <!-- === Methodology Page === -->
+  <div id="page-methodology" class="page">
+    <div class="container prose">
+      <h2>Methodology</h2>
+
+      <h3>What is this?</h3>
+      <p>
+        This is a <strong>shallow review</strong> of AI governance research focused on catastrophic and
+        existential risks from AI. It is modeled after Arb Research's
+        <a href="https://shallowreview.ai" target="_blank" rel="noopener">Shallow Review of Technical AI Safety</a>,
+        which catalogs 800+ papers and 80+ research agendas in technical AI safety.
+      </p>
+      <p>
+        "Shallow" means we provide brief descriptions and categorization rather than deep critical analysis.
+        The goal is <strong>legibility</strong> — making it easy to see what work exists, who is doing it,
+        and how different efforts relate to each other.
+      </p>
+
+      <h3>Scope</h3>
+      <p>We include work that meets <strong>all</strong> of the following criteria:</p>
+      <ul>
+        <li><strong>Governance-focused:</strong> The work concerns policy, institutions, regulation, strategy, or coordination — not purely technical alignment research.</li>
+        <li><strong>X-risk relevant:</strong> The work is motivated by or directly relevant to preventing catastrophic or existential outcomes from AI, not only near-term harms like bias or job displacement (though these may overlap).</li>
+        <li><strong>Substantive:</strong> The work presents research, analysis, or concrete proposals — not just opinion pieces or news coverage.</li>
+      </ul>
+
+      <h3>Categorization</h3>
+      <p>
+        We organize work into <strong>10 categories</strong> and multiple <strong>research agendas</strong> within each.
+        Categories are based on the primary governance lever or domain:
+      </p>
+      <ol>
+        <li><strong>Compute Governance</strong> — hardware as a governance lever</li>
+        <li><strong>International Governance</strong> — treaties, institutions, and coordination</li>
+        <li><strong>Corporate Governance</strong> — lab-level policies and structures</li>
+        <li><strong>Regulatory Frameworks</strong> — national and regional legislation</li>
+        <li><strong>Misuse Prevention</strong> — CBRN, autonomous weapons, dual-use</li>
+        <li><strong>Evaluations &amp; Auditing</strong> — third-party assessment and transparency</li>
+        <li><strong>Strategic Analysis</strong> — geopolitics, race dynamics, scenarios</li>
+        <li><strong>Post-AGI Governance</strong> — power concentration, lock-in, civilizational resilience</li>
+        <li><strong>China &amp; Geopolitics</strong> — bilateral dynamics, Global South</li>
+        <li><strong>Field Building</strong> — landscape surveys, talent, research infrastructure</li>
+      </ol>
+
+      <h3>Known gaps</h3>
+      <p>The following areas are underrepresented or missing and should be added in future versions:</p>
+      <ul>
+        <li><strong>Insurance &amp; liability frameworks</strong> — tort liability, mandatory insurance proposals</li>
+        <li><strong>Democratic governance of AI</strong> — citizen assemblies, public deliberation, participatory approaches</li>
+        <li><strong>Compute threshold analysis</strong> — how the 10^25/10^26 FLOP thresholds were derived and their adequacy</li>
+      </ul>
+
+      <h3>Limitations</h3>
+      <ul>
+        <li><strong>Incomplete coverage:</strong> AI governance research is published across law reviews, policy briefs, white papers, government reports, think tank publications, and academic venues. No single catalog can capture everything.</li>
+        <li><strong>Selection bias:</strong> This review draws heavily from the EA/rationalist community, GovAI, and anglophone policy research. Work in other languages, from government agencies, or from mainstream IR/political science is underrepresented.</li>
+        <li><strong>Categorization is imperfect:</strong> Many papers span multiple categories. We assign papers to their primary category but acknowledge overlap.</li>
+        <li><strong>Shallow means shallow:</strong> We do not assess quality, correctness, or impact of individual papers.</li>
+        <li><strong>Not peer-reviewed:</strong> This catalog itself has not been through formal review.</li>
+      </ul>
+
+      <h3>How to contribute</h3>
+      <p>
+        If you know of papers, agendas, or organizations that should be included, please open an issue or
+        pull request on the project repository. We especially welcome additions from underrepresented areas:
+        Global South perspectives, non-English work, government-internal research, and mainstream political
+        science and international relations scholarship.
+      </p>
+    </div>
+  </div>
+
+  <!-- === About Page === -->
+  <div id="page-about" class="page">
+    <div class="container prose">
+      <h2>About</h2>
+
+      <h3>Motivation</h3>
+      <p>
+        The <a href="https://shallowreview.ai" target="_blank" rel="noopener">Shallow Review of Technical AI Safety</a>
+        by Arb Research is an invaluable resource for understanding the landscape of technical safety research.
+        But technical safety is only half the picture. Even if we solve alignment perfectly, <strong>governance
+        determines whether those solutions are adopted, enforced, and sustained</strong>.
+      </p>
+      <p>
+        AI governance research aimed at catastrophic and existential risks is fragmented across many
+        organizations, venues, and traditions. There was no single place to see the whole landscape.
+        This project attempts to fill that gap.
+      </p>
+
+      <h3>Key organizations</h3>
+      <p>The following organizations produce substantial AI governance research relevant to catastrophic and existential risk:</p>
+
+      <h4>Core x-risk governance research</h4>
+      <ul>
+        <li><strong><a href="https://www.governance.ai" target="_blank" rel="noopener">GovAI</a></strong> (Centre for the Governance of AI) — Oxford-based research center, arguably the single largest dedicated AI governance research group focused on existential risk. Led by Ben Garfinkel.</li>
+        <li><strong><a href="https://techgov.intelligence.org" target="_blank" rel="noopener">MIRI TGT</a></strong> (MIRI Technical Governance Team) — MIRI's governance arm, most explicitly extinction-focused. Advocates for global "Off Switch" infrastructure.</li>
+        <li><strong><a href="https://www.longtermresilience.org" target="_blank" rel="noopener">CLTR</a></strong> (Centre for Long-Term Resilience) — UK-based think tank. Strong on risk governance at frontier AI labs, the Three Lines Model, and loss-of-control monitoring.</li>
+        <li><strong><a href="https://www.iaps.ai" target="_blank" rel="noopener">IAPS</a></strong> (Institute for AI Policy and Strategy) — DC-based. Strong on compute governance, chip controls, and agent governance. Runs an influential AI policy fellowship.</li>
+        <li><strong><a href="https://www.safe.ai" target="_blank" rel="noopener">CAIS</a></strong> (Center for AI Safety) — Research and advocacy on catastrophic AI risks. Published the 2023 "Statement on AI Risk" signed by hundreds of researchers.</li>
+        <li><strong><a href="https://futureoflife.org" target="_blank" rel="noopener">FLI</a></strong> (Future of Life Institute) — Publishes the AI Safety Index, ran the 2023 Pause letter campaign, active in autonomous weapons and EU policy advocacy.</li>
+        <li><strong><a href="https://www.convergenceanalysis.org" target="_blank" rel="noopener">Convergence Analysis</a></strong> — Produces foundational comparative reports on AI governance strategies and regulatory landscapes. AI model registries work directly influenced US policy.</li>
+        <li><strong><a href="https://simoninstitute.ch" target="_blank" rel="noopener">SI</a></strong> (Simon Institute for Longterm Governance) — Geneva-based, focuses on building multilateral AI governance capacity, particularly at the UN level.</li>
+      </ul>
+
+      <h4>National security &amp; policy research</h4>
+      <ul>
+        <li><strong><a href="https://cset.georgetown.edu" target="_blank" rel="noopener">CSET</a></strong> (Center for Security and Emerging Technology) — Georgetown. Empirical, evidence-driven policy research on AI and national security. The AGORA governance document archive is a key resource.</li>
+        <li><strong><a href="https://www.rand.org" target="_blank" rel="noopener">RAND Corporation</a></strong> — Extensive work on AI security, bioweapons misuse risk, historical governance analogues, and frontier AI model security.</li>
+        <li><strong><a href="https://www.cnas.org" target="_blank" rel="noopener">CNAS</a></strong> (Center for a New American Security) — DC think tank. Work on AI and national security strategy, autonomous weapons, and technology competition.</li>
+        <li><strong><a href="https://carnegieendowment.org" target="_blank" rel="noopener">Carnegie Endowment</a></strong> — International affairs think tank with growing AI governance program, particularly on global governance architecture.</li>
+      </ul>
+
+      <h4>AI lab safety &amp; evaluation</h4>
+      <ul>
+        <li><strong><a href="https://metr.org" target="_blank" rel="noopener">METR</a></strong> (Model Evaluation and Threat Research) — Conducts pre-deployment capability evaluations for frontier labs. Published the comprehensive comparison of frontier safety policies.</li>
+        <li><strong><a href="https://www.apolloresearch.ai" target="_blank" rel="noopener">Apollo Research</a></strong> — Research on AI deception, scheming evaluation, and alignment faking in frontier models.</li>
+        <li><strong><a href="https://www.aisi.gov.uk" target="_blank" rel="noopener">UK AISI</a></strong> (UK AI Safety Institute) — Government body conducting pre-deployment evaluations and safety research. Established after Bletchley Park summit.</li>
+      </ul>
+
+      <h4>Data &amp; trends</h4>
+      <ul>
+        <li><strong><a href="https://epochai.org" target="_blank" rel="noopener">Epoch AI</a></strong> — Collects and analyzes data on compute trends, algorithmic progress, and AI development trajectories. Essential background for compute governance.</li>
+        <li><strong><a href="https://airisk.mit.edu" target="_blank" rel="noopener">MIT AI Risk Initiative</a></strong> — Runs the AI Governance Mapping project analyzing 1,000+ governance documents.</li>
+      </ul>
+
+      <h4>Multi-stakeholder &amp; standards</h4>
+      <ul>
+        <li><strong><a href="https://partnershiponai.org" target="_blank" rel="noopener">PAI</a></strong> (Partnership on AI) — Multi-stakeholder initiative. Foundation model deployment guidance and governance priorities.</li>
+        <li><strong><a href="https://oecd.ai" target="_blank" rel="noopener">OECD AI Policy Observatory</a></strong> — Tracks 1,000+ AI policy initiatives across 69 countries. The OECD AI Principles are a key soft-law instrument.</li>
+        <li><strong><a href="https://hai.stanford.edu" target="_blank" rel="noopener">Stanford HAI</a></strong> (Human-Centered AI) — Publishes the annual AI Index and policy research at the intersection of AI and society.</li>
+      </ul>
+
+      <h3>Relationship to the original Shallow Review</h3>
+      <p>
+        This project is inspired by but <strong>not affiliated with</strong> Arb Research's Shallow Review
+        of Technical AI Safety. We adopt the "shallow review" format — brief, structured, catalog-style —
+        but apply it to a different domain (governance rather than technical safety).
+      </p>
+
+      <h3>Citation</h3>
+      <p>
+        If you find this useful, please link back to this site. This is a community resource and
+        should be treated as a living document rather than a fixed publication.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>
+        Shallow Review of AI Governance for X-Risk &middot; v0.3 &middot; March 2026 &middot;
+        Inspired by <a href="https://shallowreview.ai" target="_blank" rel="noopener">shallowreview.ai</a>
+        &middot; Not affiliated with Arb Research
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
